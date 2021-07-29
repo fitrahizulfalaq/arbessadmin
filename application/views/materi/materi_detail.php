@@ -11,6 +11,7 @@
         <!-- Profile Image -->
         <div class="card card-info card-outline">
           <div class="card-body box-profile">
+            <small>Refresh kembali bila tidak muncul, pastikan koneksi internet stabil</small>
             <div class="text-justify">
               <iframe frameborder="0" src="<?= 'https://docs.google.com/viewer?url=' . $url . '&embedded=true'?>" allow allowfullscreen height="800px" width="100%">Sedang Meload</iframe>
               refresh bila tidak muncul
