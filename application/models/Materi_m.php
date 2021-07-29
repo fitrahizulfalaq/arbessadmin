@@ -38,9 +38,8 @@ class Materi_m extends CI_Model {
 
 	  $params['id'] =  $post['id'];
 	  $params['judul'] =  $post['judul'];
-	  $params['created'] =  $post['created'];
 	  
-		 if ($post['file'] != null) {
+		if (isset($post['file'])) {
 	  	  	$params['file'] =  $post['file'];
 	  	}
 

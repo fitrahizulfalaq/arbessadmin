@@ -34,7 +34,7 @@
             </div>            
             <?php if($row->file != null) {?>
             <div>
-              <h4>File : <a href="<?= base_url('assets/dist/img/file-materi/'.$row->file)?>" class="text-primary"><?= $this->input->post('file') ?? $row->file; ?></h4>
+              <h4>File : <a href="<?= base_url('assets/dist/files/materi/'.$row->file)?>" class="text-primary"><?= $this->input->post('file') ?? $row->file; ?></h4>
               <a href="<?= site_url('materi/hapusfile/'.$row->id);?>"><small>Hapus file?</small></a> 
             </div>
             <?php } else {  ?>             
