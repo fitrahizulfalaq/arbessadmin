@@ -35,7 +35,6 @@ class Tugas_m extends CI_Model {
 
 	function update($post)
 	{
-
 	  $params['id'] =  $post['id'];
 	  $params['judul'] =  $post['judul'];
 	  $params['created'] =  $post['created'];
@@ -49,11 +48,11 @@ class Tugas_m extends CI_Model {
 	}
 
 	function hapus($id){
-
 	  $this->db->where('id', $id);
 	  $this->db->delete('tb_tugas');
-
 	}
+
+	
 
 
 

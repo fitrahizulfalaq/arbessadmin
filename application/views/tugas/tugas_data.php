@@ -34,7 +34,7 @@
                   <td width="15%"><?= $data->nama ?> <br> <?= $data->nim ?></td>
                   <td width="10%">                    
                     <a href="<?= site_url('tugas/detail/'.$data->id);?>" class="btn btn-sm btn-warning"><i class='fas fa-eye'></i></a>
-                    <a href="<?= site_url('tugas/hapus/'.$data->id);?>" class="btn btn-sm btn-danger" onclick="return confirm('Apakah yakin mau dihapus?')"><i class='fas fa-trash'></i></a>
+                    <a href="https://inobelum-arbes.com/tugas/hapustugas/<?= $data->id?>" class="btn btn-sm btn-danger" onclick="return confirm('Apakah yakin mau dihapus?')"><i class='fas fa-trash'></i></a>
                   </td>
                 </tr>
               <?php }?>
